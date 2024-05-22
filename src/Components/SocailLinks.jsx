@@ -14,7 +14,7 @@ const SocailLinks = () => {
               </>
             ),
             href: 'https://www.linkedin.com/in/muhammad-jareer-amiri-0210bb298/',
-            style: 'rounded-tr-md'
+            style: 'rounded-tr-md bg-blue-800'
         },
         {
             id: 2,
@@ -23,7 +23,8 @@ const SocailLinks = () => {
                 GitHub <FaGithub size={30} />
               </>
             ),
-            href: 'https://github.com/Muhammad-Jareer'
+            href: 'https://github.com/Muhammad-Jareer',
+            style: 'rounded-tr-md bg-gray-700'
         },
         {
             id: 3,
@@ -33,6 +34,7 @@ const SocailLinks = () => {
               </>
             ),
             href: 'mailto:jareerameer@gmail.com',
+            style: 'rounded-tr-md bg-green-500'
         },
         {
             id: 4,
@@ -42,8 +44,8 @@ const SocailLinks = () => {
               </>
             ),
             href: './resume.pdf',
-            style: 'rounded-br-md',
-            download: true
+            style: 'rounded-br-md bg-blue-500',
+            download: true,
         },
     ]
 
