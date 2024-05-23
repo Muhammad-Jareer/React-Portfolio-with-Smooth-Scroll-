@@ -14,7 +14,7 @@ const SocailLinks = () => {
               </>
             ),
             href: 'https://www.linkedin.com/in/muhammad-jareer-amiri-0210bb298/',
-            style: 'rounded-tr-md bg-[#2424a3]'
+            style: 'rounded-tr-md bg-blue-800'
         },
         {
             id: 2,
