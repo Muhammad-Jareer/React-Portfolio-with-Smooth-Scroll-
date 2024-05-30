@@ -46,20 +46,20 @@ const Portfolio = () => {
     return (
         <div name='portfolio' className='pt-20 bg-gradient-to-t from-black via-black to-gray-800 relative md:h-screen w-full text-white'>
             <div className='max-w-screen px-4 mx-auto flex-col justify-center w-full h-full'>
-                <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                    <p className='pt-6'>Check out some of my work right here</p>
+                <div className='pb-4 px-12'>
+                    <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Portfolio</p>
+                    <p className='pt-4'>Check out some of my work right here</p>
                 </div>
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-12'>
                     {portfolio.map(({ id, src, href, code }) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img className='rounded-md duration-200 hover:scale-105 cursor-pointer' src={src} alt="" />
                             <div className='flex items-center justify-center'>
-                                <a href={href} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 border-r-2 text-center'>
+                                <a href={href} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-4 m-2 duration-200 hover:scale-105 border-r-2 text-center'>
                                     Demo
                                 </a>
-                                <a href={code} target="_blank"  className='w-1/2 px-6 py-2 m-2 duration-200 hover:scale-105 text-center'>Code</a> {/* Replace "#" with the appropriate link */}
+                                <a href={code} target="_blank"  className='w-1/2 px-6 py-4 m-2 duration-200 hover:scale-105 text-center'>Code</a> {/* Replace "#" with the appropriate link */}
                             </div>
                         </div>
                     ))}
