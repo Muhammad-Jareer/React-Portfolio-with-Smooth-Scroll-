@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 bg-black sticky top-0 px-8 text-white z-10">
       <div>
-      <h1 className="font-signature text-5xl font-black py-16 bg-gradient-to-r from-sky-300 via-blue-500 to-purple-500 bg-clip-text text-transparent">Jerry <span className="px-6">Dev</span></h1>
+      <h1 className="font-signature text-4xl md:text-5xl font-medium py-16 bg-gradient-to-r from-sky-300 via-blue-500 to-purple-500 bg-clip-text text-transparent">Jerry <span className="">Dev</span></h1>
 
       </div>
       <div className="flex items-center">
