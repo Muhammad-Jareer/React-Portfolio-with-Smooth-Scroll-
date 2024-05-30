@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div 
         name='home' 
-        className='relative py-32 md:h-screen w-full bg-gradient-to-t from-black via-black to-gray-800'
+        className='relative py-14 md:h-screen w-full bg-gradient-to-t from-black via-black to-gray-800'
         >
             <div className='py-4 max-w-screen-lg h-full mx-auto flex flex-col items-center justify-center gap-8 md:gap-16 px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
@@ -26,8 +26,8 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-                <div>
-                    <img src={profile_img} alt="profile img" className='rsm:ounded-2xl mx-auto w-[300px] h-[350px] rounded-[50%] md:w-[600px] md:h-2/3' />
+                <div className='rounded-full'>
+                    <img src={profile_img} alt="profile img" className='rounded-full h-[260px] w-[250px] ' />
                 </div>
             </div>
         </div>
