@@ -27,7 +27,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='rounded-full'>
-                    <img src={profile_img} alt="profile img" className='rounded-full h-[260px] w-[250px] ' />
+                    <img src={profile_img} alt="profile img" className='rounded-full h-[260px] w-[250px] md:h-[350px] md:w-[800px]' />
                 </div>
             </div>
         </div>
