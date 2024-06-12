@@ -19,12 +19,10 @@ const Portfolio = () => {
         {
             id: 2,
             src: portfolio_2,
-            href: "#" // Replace "#" with the appropriate link
         },
         {
             id: 3,
             src: portfolio_3,
-            href: "#" // Replace "#" with the appropriate link
         },
         {
             id: 4,
@@ -33,7 +31,6 @@ const Portfolio = () => {
         {
             id: 5,
             src: portfolio_5,
-            href: "#" // Replace "#" with the appropriate link
         },
         {
             id: 6,

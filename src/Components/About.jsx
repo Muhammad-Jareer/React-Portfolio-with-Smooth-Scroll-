@@ -7,11 +7,13 @@ const About = () => {
                 <div className='pt-2 sm:text-start'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
-                <p className='text-xl mt-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipseniet voluptatum amet officiis maxime? Vel, voluptatum dolorem earum illo, delectus unde quia nostrum in placeat mollitia deserunt sit, veritatis provident minus </p>
+                <p className='text-xl mt-6'>I am currently looking for an opportunity as a fresher front-end developer or intern. I am a skilled web developer with expertise in HTML, CSS, Tailwind, JavaScript, GSAP, React, and GitHub. Currently, I am pursuing a degree in Software Engineering at the University of Haripur. I focus on building dynamic and responsive web applications that provide exceptional user experiences.</p>
 
                 <br />
 
-                <p className='text-xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem iste ea facilis excepturi alias temporibus molestias maxime maiores nobis soluta porro, asperiores consectetur commodi. Ex provident eveniet nae culpa! </p>
+                <p className='text-xl'>With a passion for front-end development and a keen eye for detail, I aim to create visually appealing and highly functional websites. My goal is to continuously improve my skills and stay updated with the latest industry trends to deliver the best solutions for users and clients.</p>
+
+
             </div>
         </div>
     );
