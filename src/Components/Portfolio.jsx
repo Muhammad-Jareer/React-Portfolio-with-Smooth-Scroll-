@@ -18,7 +18,9 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: portfolio_2,
+            src: portfolio_6,
+            href: "https://main--weatherhazara.netlify.app/",
+            code: "https://github.com/Muhammad-Jareer/React-Weather-App"
         },
         {
             id: 3,
@@ -34,9 +36,7 @@ const Portfolio = () => {
         },
         {
             id: 6,
-            src: portfolio_6,
-            href: "https://main--weatherhazara.netlify.app/",
-            code: "https://github.com/Muhammad-Jareer/React-Weather-App"
+            src: portfolio_2,
         },
     ];
 
